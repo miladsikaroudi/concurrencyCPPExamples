@@ -1,4 +1,4 @@
-# Concurrent Programming with C++ Futures
+# Concurrent Programming with C++ Futures : Milewski Example
 
 This is a simple C++ program that demonstrates the use of the `<future>` library to create asynchronous tasks, which is an example of concurrent programming.
 
