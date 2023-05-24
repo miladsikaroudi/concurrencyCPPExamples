@@ -52,7 +52,7 @@ This is a simple C++ program that demonstrates the use of the `<future>` library
 ## Expected Output
 
 When running this program, you will see it printing the ID of the main thread, and then the IDs of 20 other threads. However, note that because of the `std::launch::deferred|std::launch::async` policy, it's not guaranteed that each task will be run in a separate thread. This depends on the specific implementation of the C++ standard library.
-```
+
 
 # Concurrent Programming with C++ Futures : concurrency_presentation.cpp examples
 This C++ program illustrates several aspects of concurrent programming using C++ <future> and <async>. The program executes different tasks depending on the command line argument provided when launching it.
